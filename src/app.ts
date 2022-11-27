@@ -1,5 +1,5 @@
-let number1: number
+import express from 'express'
 
-number1 = 3
+const app = express()
 
-console.log(number1)
+app.listen(3000)
